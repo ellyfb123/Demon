@@ -1,0 +1,17 @@
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+.idea
+.gradle
+*.jar
+*.war
+*.ear
+*.ims
+*.ipr
+build
+out
+*.iml
+build
+readme
+*.iws
+out
+.git
