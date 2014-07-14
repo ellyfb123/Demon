@@ -1,0 +1,4 @@
+2014-07-14 21:31:59 [ Test worker:0 ] - [ INFO ]  An info from SLF4j
+2014-07-14 21:32:16 [ main:0 ] - [ INFO ]  An info from SLF4j
+2014-07-14 21:33:48 [ main:0 ] - [ INFO ]  An info from SLF4j
+2014-07-14 21:34:06 [ main:0 ] - [ INFO ]  An info from SLF4j
