@@ -1,17 +1,33 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
 <html>
 <head>
-    <title>MathAddAndStringLink</title>
+    <title>MathAdd</title>
 </head>
 <body>
-<h1>Budget Query</h1>
-<form action="" method="post" name="information" id="information" onsubmit="return checkId()">
-    name
-    <input type="text" name="name" id="name"></br>
-    id&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="text" name="id" id="id"></br></br>
-    &nbsp&nbsp&nbsp&nbsp<input type="button" name="cancel" value="cancel" onclick="close();document.write('<n>')">&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="submit" name="submit" value="submit">
-</form>
+<h1>MathAdd</h1>
+<form action="Hello" method="post" name="information" id="information">
+        <div style="margin:10px">
+            <span style="padding:20px">add1</span>
+            <input type="text" name="add1" id="add1">
+        </div>
+
+        <div style="margin:10px">
+            <span style="padding:20px">add2</span>
+            <input type="text" name="add2" id="add2">
+        </div>
+        <input type="reset" name="cancel" value="cancel" style="margin:0px 30px">
+        <input type="submit" name="submit" value="submit" style="margin:0px 20px">
+
+
+    </form>
+
+ <%
+            String result = (String)request.getAttribute("result");
+            if(result == null)
+            {result = "";}
+ %>
+           <div style="background-color:#EEEEEE;width:'100%';font-size:14px;">
+           <div style="float:left;width:28%; margin:10px 30px"><%=result%></div>
+           </div>
 </body>
 </html>
