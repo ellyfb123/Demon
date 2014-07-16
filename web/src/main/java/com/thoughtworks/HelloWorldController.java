@@ -14,8 +14,14 @@ public class HelloWorldController{
 
         @RequestMapping(value = "/hello", method = RequestMethod.GET)
         public String printHello(ModelMap model) {
-            model.addAttribute("msg", "Hello Spring MVC Framework!");
             return "hello";
         }
+       @RequestMapping(value = "/add", method = RequestMethod.POST)
+       public String getnumber(HttpServletRequest request, HttpServletResponse response,ModelMap model) {
+           String add1 = request.getParameter("add1");
+           String add2 = request.getParameter("add2");
+           model.addAttribute("msg", add1+add2);
+           return "hello";
+    }
 
     }
