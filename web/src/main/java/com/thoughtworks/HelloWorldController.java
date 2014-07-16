@@ -22,6 +22,9 @@ public class HelloWorldController{
 
        }
        @RequestMapping(value = "/add", method = RequestMethod.POST)
+
+
+
        public String getnumber(HttpServletRequest request, HttpServletResponse response,ModelMap model) {
            String add1 = request.getParameter("add1");
            String add2 = request.getParameter("add2");
