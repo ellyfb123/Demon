@@ -28,6 +28,7 @@
  %>
            <div style="background-color:#EEEEEE;width:'100%';font-size:14px;">
            <div style="float:left;width:28%; margin:10px 30px"><%=result%></div>
+
            </div>
 </body>
 </html>
