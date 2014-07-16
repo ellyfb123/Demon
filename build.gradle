@@ -5,5 +5,6 @@ subprojects{
         mavenCentral()
     }
     dependencies{
-    testCompile 'junit:junit: 4.+'}
+    compile 'org.springframework:spring-context:3.0.5'
+    testCompile 'junit:junit:4.10'}
 }

@@ -6,11 +6,14 @@
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
     <servlet>
         <servlet-name>tbservlet</servlet-name>
-        <servlet-class>com.thoughtworks.HelloWorld</servlet-class>
+        <servlet-class>com.thoughtworks.HelloWorld1</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>tbservlet</servlet-name>
         <url-pattern>/Hello</url-pattern>
     </servlet-mapping>
+    <listener>
+    <listener-class>com.thoughtworks.MyAppServletContextListener</listener-class>
+    </listener>
 </web-app>

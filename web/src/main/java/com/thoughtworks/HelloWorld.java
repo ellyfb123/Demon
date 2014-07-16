@@ -1,5 +1,8 @@
 
 package com.thoughtworks;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import javax.servlet.http.HttpServlet;
 
 
@@ -16,8 +19,11 @@ public class HelloWorld extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<body>");
-        SayHello sayHello = new SayHello();
-        out.println(sayHello.say());
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                "SpringBeans.xml");
+
+        CalculatorClient obj = (CalculatorClient) context.getBean("ApplicationBean");
+        out.println(obj.add("12","23")) ;
         out.println("</body>");
         out.println("</html>");
     }
