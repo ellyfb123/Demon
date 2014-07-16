@@ -22,14 +22,7 @@
 
     </form>
 
- <%
-            String result = (String)request.getAttribute("result");
-            if(result == null)
-            {result = "";}
- %>
-           <div style="background-color:#EEEEEE;width:'100%';font-size:14px;">
-           <div style="float:left;width:28%; margin:10px 30px"><%=result%></div>
-           </div>
+
            <h1>${msg}</h1>
 </body>
 </html>
