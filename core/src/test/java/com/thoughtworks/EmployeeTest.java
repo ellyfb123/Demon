@@ -30,7 +30,7 @@ public class EmployeeTest {
     public void should_get_available_cost_of_lihongjing_based_on_her_experience() throws SQLException {
         Employee employee = EmployeeInfoService.createEmployee("00002");
         double available = employee.getAvailableCost();
-        assertEquals(1333.33, available, 0.01);
+        assertEquals(1500, available, 0.01);
     }
 
     @Test

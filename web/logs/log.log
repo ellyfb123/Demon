@@ -316,3 +316,8 @@
 2014-07-21 08:52:48 [ main:1888 ] - [ INFO ] FrameworkServlet 'mvc-dispatcher': initialization completed in 618 ms
 2014-07-21 08:52:49 [ Shutdown:2492 ] - [ INFO ] Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jul 21 08:52:48 CST 2014]; parent: Root WebApplicationContext
 2014-07-21 08:52:49 [ Shutdown:2496 ] - [ INFO ] Closing Root WebApplicationContext: startup date [Mon Jul 21 08:52:47 CST 2014]; root of context hierarchy
+2014-07-21 09:13:54 [ Test worker:0 ] - [ INFO ] Creating embedded database 'testdb'
+2014-07-21 09:13:54 [ Test worker:179 ] - [ INFO ] Executing SQL script from class path resource [schema.sql]
+2014-07-21 09:13:54 [ Test worker:189 ] - [ INFO ] Executed SQL script from class path resource [schema.sql] in 9 ms.
+2014-07-21 09:13:54 [ Test worker:190 ] - [ INFO ] Executing SQL script from class path resource [data.sql]
+2014-07-21 09:13:54 [ Test worker:205 ] - [ INFO ] Executed SQL script from class path resource [data.sql] in 15 ms.
