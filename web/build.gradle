@@ -1,18 +1,9 @@
-apply plugin: 'java'
-apply plugin: 'idea'
 apply plugin: 'jetty'
-apply plugin: 'war'
 
-repositories {
-    mavenCentral()
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile project(':core')
+    compile(
+            'org.springframework:spring-webmvc:4.0.6.RELEASE',
+    )
 }
-
-dependencies{
-            providedCompile'javax.servlet:servlet-api:2.5'
-
-            compile project(':core')
-            compile 'org.springframework:spring-webmvc:4.0.6.RELEASE'
-
-
-}
-

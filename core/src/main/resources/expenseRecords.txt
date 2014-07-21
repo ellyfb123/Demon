@@ -1,0 +1,9 @@
+00001	Books	35.5
+00002	Books	250
+00003	Books	24
+00004	Books	78
+00001	Training/Education	200
+00002	Training/Education	34.7
+00003	Training/Education	45
+00005	Training/Education	79
+
