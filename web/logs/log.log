@@ -321,3 +321,27 @@
 2014-07-21 09:13:54 [ Test worker:189 ] - [ INFO ] Executed SQL script from class path resource [schema.sql] in 9 ms.
 2014-07-21 09:13:54 [ Test worker:190 ] - [ INFO ] Executing SQL script from class path resource [data.sql]
 2014-07-21 09:13:54 [ Test worker:205 ] - [ INFO ] Executed SQL script from class path resource [data.sql] in 15 ms.
+2014-07-21 09:17:38 [ main:0 ] - [ INFO ] Root WebApplicationContext: initialization started
+2014-07-21 09:17:38 [ main:105 ] - [ INFO ] Refreshing Root WebApplicationContext: startup date [Mon Jul 21 09:17:38 CST 2014]; root of context hierarchy
+2014-07-21 09:17:38 [ main:151 ] - [ INFO ] Loading XML bean definitions from class path resource [embeddedDataSource.xml]
+2014-07-21 09:17:38 [ main:679 ] - [ INFO ] Creating embedded database 'dataSource'
+2014-07-21 09:17:38 [ main:834 ] - [ INFO ] Executing SQL script from class path resource [schema.sql]
+2014-07-21 09:17:38 [ main:842 ] - [ INFO ] Executed SQL script from class path resource [schema.sql] in 7 ms.
+2014-07-21 09:17:38 [ main:843 ] - [ INFO ] Executing SQL script from class path resource [data.sql]
+2014-07-21 09:17:38 [ main:857 ] - [ INFO ] Executed SQL script from class path resource [data.sql] in 12 ms.
+2014-07-21 09:17:38 [ main:864 ] - [ INFO ] Root WebApplicationContext: initialization completed in 859 ms
+2014-07-21 09:17:39 [ main:947 ] - [ INFO ] FrameworkServlet 'mvc-dispatcher': initialization started
+2014-07-21 09:17:39 [ main:953 ] - [ INFO ] Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jul 21 09:17:39 CST 2014]; parent: Root WebApplicationContext
+2014-07-21 09:17:39 [ main:957 ] - [ INFO ] Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+2014-07-21 09:17:39 [ main:1106 ] - [ INFO ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-07-21 09:17:39 [ main:1200 ] - [ INFO ] Mapped URL path [/hello] onto handler 'demoController'
+2014-07-21 09:17:39 [ main:1201 ] - [ INFO ] Mapped URL path [/hello.*] onto handler 'demoController'
+2014-07-21 09:17:39 [ main:1203 ] - [ INFO ] Mapped URL path [/hello/] onto handler 'demoController'
+2014-07-21 09:17:39 [ main:1205 ] - [ INFO ] Mapped URL path [/query] onto handler 'demoController'
+2014-07-21 09:17:39 [ main:1205 ] - [ INFO ] Mapped URL path [/query.*] onto handler 'demoController'
+2014-07-21 09:17:39 [ main:1206 ] - [ INFO ] Mapped URL path [/query/] onto handler 'demoController'
+2014-07-21 09:17:39 [ main:1408 ] - [ INFO ] FrameworkServlet 'mvc-dispatcher': initialization completed in 460 ms
+2014-07-21 09:17:59 [ 1515158565@qtp-620261481-0:21251 ] - [ WARN ] No mapping found for HTTP request with URI [/web/] in DispatcherServlet with name 'mvc-dispatcher'
+2014-07-21 09:18:00 [ 1515158565@qtp-620261481-0:22429 ] - [ WARN ] No mapping found for HTTP request with URI [/web/] in DispatcherServlet with name 'mvc-dispatcher'
+2014-07-21 09:18:19 [ Shutdown:41870 ] - [ INFO ] Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jul 21 09:17:39 CST 2014]; parent: Root WebApplicationContext
+2014-07-21 09:18:19 [ Shutdown:41873 ] - [ INFO ] Closing Root WebApplicationContext: startup date [Mon Jul 21 09:17:38 CST 2014]; root of context hierarchy
